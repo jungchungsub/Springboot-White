@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import site.metacoding.white.domain.Third;
 
-//고급 데이터 받기(json, x-www-form-머시기,text)
+//고급 데이터 받기(json, x-www-form-머시기,text) 오브젝트로 받고 제이슨으로 받늗거
 
 @RestController
 public class ThirdController {

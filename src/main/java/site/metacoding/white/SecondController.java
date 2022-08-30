@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 // DELETE -> htttp body가 없음. -> QueryString, PathVariable(PK)
 
 @RestController //메모리에 띄운다.
-public class SecondController { //값 받는것만 신경쓴다.
+public class SecondController { 
 	@GetMapping("/second/{id}")	//PK(ID)가 1인것
 	public String getData(@PathVariable Integer id) {
 		return "id:" +id;
